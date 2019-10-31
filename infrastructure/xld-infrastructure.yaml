@@ -6,7 +6,6 @@ spec:
   children:
   - name: myrancher
     type: k8s.Master
-    disableInLoadBalancer: false
     apiServerURL: !value "kubeUrl"
     skipTLS: true
     token: !value "kubeToken"
